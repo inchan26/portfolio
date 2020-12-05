@@ -1,0 +1,136 @@
+@media (max-width: 992px) and (min-width:849px){
+
+
+        
+     
+}
+
+    @media (max-width: 850px) and (min-width:577px){
+        .sidebar-main .icon{
+            display: block;
+            display: grid;
+            grid-column: 2;
+            place-items: start;
+            align-items: center;
+            }
+
+        .sidebar-main .menu-container{
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        background-color: #686767;
+        margin-top:50px ;
+        align-items: center;
+        justify-items: center;
+
+
+        grid-auto-flow: row;
+        grid-auto-rows: 50px;
+        grid-auto-columns:1fr ;
+        }  
+
+        .sidebar-main .menu-container li a{
+
+            font-weight: bold;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .sidebar-main .menu-container  li{
+              margin-top: 300px;
+            }
+            
+            
+        
+        .sidebar-main .menu-container li a:hover{
+            color: cyan;
+        }
+
+        .sidebar-main .name{
+            display: grid;
+            grid-column: 3;
+        }
+        
+    
+}
+
+/*////menutransition//////*/
+
+.sidebar-main .menu-container.hide{
+    height: 0px;
+    }
+
+    .sidebar-main .menu-container.hide li{
+        display: none;
+        }
+   
+    .sidebar-main .menu-container.show{
+       height: 100vh;
+        }
+
+
+
+
+    @media (max-width: 578px){
+        .sidebar-main .icon{
+            display: block;
+            display: grid;
+            grid-column: 2;
+            place-items: start;
+            align-items: center;
+            }
+
+        .sidebar-main .menu-container{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: #686767;
+        margin-top:50px ;
+        align-items: center;
+        justify-items: center;
+
+
+        grid-auto-flow: row;
+        grid-auto-rows: 50px;
+        grid-auto-columns:1fr ;
+        }  
+
+        .sidebar-main .menu-container li a{
+
+            font-weight: bold;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .sidebar-main .menu-container  li{
+              margin-top: 300px;
+            }
+            
+            
+        
+        .sidebar-main .menu-container li a:hover{
+            color: cyan;
+        }
+
+        .sidebar-main .name{
+            display: grid;
+            grid-column: 3;
+        }
+
+
+
+        /*////menutransition//////*/
+        .sidebar-main .menu-container.hide{
+        height: 0px;
+        }
+
+        .sidebar-main .menu-container.hide li{
+            display: none;
+            }
+       
+        .sidebar-main .menu-container.show{
+           height: 100vh;
+            }
+          
+
+    }
